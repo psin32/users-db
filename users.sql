@@ -56,7 +56,7 @@ CREATE TABLE address (
       firstname varchar(255) DEFAULT NULL,
       isprimary int(11) NOT NULL DEFAULT '0',
       lastcreate timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-      lastname varchar(255) DEFAULT NULL,nickname varchar(255) NOT NULL,
+      lastname varchar(255) DEFAULT NULL,
       phone1 varchar(255) DEFAULT NULL,
       phone2 varchar(255) DEFAULT NULL,
       selfaddress int(11) NOT NULL DEFAULT '0',
