@@ -26,6 +26,7 @@ CREATE TABLE users (
       registration timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
       registrationupdate timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
       username varchar(255) NOT NULL,
+      role int(11) NOT NULL,
       PRIMARY KEY (users_id)
 );
 
